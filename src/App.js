@@ -3,7 +3,7 @@ import Sidebar from './components/sidebar/Sidebar';
 import Topbar from './components/topbar/Topbar';
 import './app.css'
 import Home from './pages/home/Home';
-import { Route, BrowserRouter as Router, Switch } from 'react-router-dom';
+import { Route, BrowserRouter as Router, Switch, Redirect } from 'react-router-dom';
 import Latestjob from './pages/LatestJobs/Latestjob';
 import Editjob from './pages/EditJob/Editjob';
 import Newjob from './pages/NewJob/Newjob';
@@ -23,6 +23,8 @@ const App = () => {
           <Route path='/newjob' component={Newjob} />
           <Route path='/analytics' component={Anaytics} />
           <Route path='/all-analytics' component={AllAnalytics} />
+
+          <Redirect to='/' />
 
 
         </Switch>
