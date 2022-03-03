@@ -1,0 +1,118 @@
+.edit-job{
+    flex: 4;
+    padding: 20px;
+}
+
+.jobtitle_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.jobtitle{
+    font-size: 22px;
+}
+
+.job_addbutton{
+    width: 80px;
+    border: none;
+    padding: 5px;
+    background-color: teal;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+}
+
+.job_container{
+    display: flex;
+    margin-top: 20px;
+}
+
+.job_show{
+    flex: 1;
+    padding: 20px;
+    -webkit-box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.75 );
+    box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.75 );
+}
+
+.job_update{
+    flex: 1;
+    padding: 20px;
+    -webkit-box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.75 );
+    box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.75 );
+    margin-left: 20px;
+}
+
+.job_show-top,
+.job_show-description,
+.job_show-startdate{
+    margin-bottom: 20px;
+}
+
+.job_show-top>span:first-child,
+.job_show-startdate>span:first-child,
+.job_show-lastdate>span:first-child,
+.job_show-description>span:first-child{
+    margin-right: 7px;
+    font-weight: 700;
+    color: #666;
+}
+
+.job_show-top>span:nth-child(2),
+.job_show-startdate>span:nth-child(2),
+.job_show-lastdate>span:nth-child(2),
+.job_show-description>span:nth-child(2){
+    font-weight: 500;
+}
+
+.job_show-startdate>span:nth-child(2){
+    color: green;
+}
+.job_show-lastdate>span:nth-child(2){
+    color: red;
+}
+
+.job_update-title{
+    font-size: 22px;
+    font-weight: 600;
+}
+.job_update-item{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.job_update-item>label{
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.job_update-input{
+    border: none;
+    height: 30px;
+    border-bottom: 1px solid gray;
+}
+
+.job_update-textarea{
+    border: none;
+    border-bottom: 1px solid gray;
+}
+
+.job_update-input:focus,
+.job_update-textarea:focus{
+    outline: none;
+}
+
+.job_update-button{
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 20px auto 0;
+    color: #fff;
+    background: darkblue;
+    cursor: pointer;
+}

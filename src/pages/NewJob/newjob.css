@@ -1,0 +1,59 @@
+.newjob{
+    flex: 4;
+    padding: 20px;
+}
+
+.newjob-title{
+    font-size: 22px;
+}
+
+.newjob-form{
+    margin-top: 20px;
+}
+
+.newjob_form-item{
+    display: flex;
+    margin-top: 20px;
+}
+
+.newjob_form-item>label{
+    flex: 1;
+    font-size: 18px;
+    font-weight: 700;
+    color: gray;
+}
+
+.newjob_form-item>input{
+    flex: 3;
+    height: 2rem;
+    padding: 7px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+.newjob_form-item>textarea{
+    flex: 3;
+    padding: 7px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+.newjob_form-item>input:focus,
+.newjob_form-item>textarea:focus{
+    outline: none;
+}
+
+.create_newjob-button{
+    width: 200px;
+    border: none;
+    background-color: darkblue;
+    color: #fff;
+    padding: 7px 10px;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+    display: block;
+    margin: 40px auto 0;
+}

@@ -1,6 +1,9 @@
 import React from 'react';
 import './sidebar.css';
-import { AttachMoney, BarChart, ChatBubbleOutline, DynamicFeed, LineStyle, MailOutline, PermIdentity, Report, Storefront, Timeline, TrendingUp, WorkOutline } from '@material-ui/icons';
+import { Add, Edit, AttachMoney, BarChart, ChatBubbleOutline, DynamicFeed, LineStyle, MailOutline, Report, Timeline, TrendingUp, WorkOutline } from '@material-ui/icons';
+import { Link } from 'react-router-dom';
+
+
 
 const Sidebar = () => {
     return (
@@ -9,26 +12,36 @@ const Sidebar = () => {
                 <div className="sidebar-menu">
                     <h3 className="sidebar-title">Dashboard</h3>
                     <ul className="sidebar-list">
-                        <li className="sidebar_list-item active">
-                            <LineStyle className='sidebar-icon' /> Home
-                        </li>
-                        <li className="sidebar_list-item">
-                            <Timeline className='sidebar-icon' /> Analytics
-                        </li>
-                        <li className="sidebar_list-item">
-                            <TrendingUp className='sidebar-icon' /> Salaes
-                        </li>
+                        <Link to='/'>
+                            <li className="sidebar_list-item">
+                                <LineStyle className='sidebar-icon' /> Home
+                            </li>
+                        </Link>
+                        <Link to='/analytics'>
+                            <li className="sidebar_list-item">
+                                <Timeline className='sidebar-icon' /> Analytics
+                            </li>
+                        </Link>
+                        <Link to='/all-analytics'>
+                            <li className="sidebar_list-item">
+                                <TrendingUp className='sidebar-icon' /> All Analytics
+                            </li>
+                        </Link>
                     </ul>
                 </div>
                 <div className="sidebar-menu">
-                    <h3 className="sidebar-title">Quick Menu</h3>
+                    <h3 className="sidebar-title">Jobs Update</h3>
                     <ul className="sidebar-list">
-                        <li className="sidebar_list-item">
-                            <PermIdentity className='sidebar-icon' /> Users
-                        </li>
-                        <li className="sidebar_list-item">
-                            <Storefront className='sidebar-icon' /> Products
-                        </li>
+                        <Link to='/newjob'>
+                            <li className="sidebar_list-item">
+                                <Add className='sidebar-icon' /> Add New Job
+                            </li>
+                        </Link>
+                        <Link to='/jobs'>
+                            <li className="sidebar_list-item">
+                                <Edit className='sidebar-icon' /> Edit Job
+                            </li>
+                        </Link>
                         <li className="sidebar_list-item">
                             <AttachMoney className='sidebar-icon' /> Transaction
                         </li>
