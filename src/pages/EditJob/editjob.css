@@ -38,10 +38,14 @@
 
 .job_update{
     flex: 1;
-    padding: 20px;
+    /* padding: 20px; */
     -webkit-box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.75 );
     box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.75 );
     margin-left: 20px;
+}
+
+.job_update>form{
+    padding: 20px;
 }
 
 .job_show-top,
@@ -74,18 +78,24 @@
 }
 
 .job_update-title{
-    font-size: 22px;
+    font-size: 30px;
     font-weight: 600;
+    padding: 15px;
+    background: teal;
+    color: #fff;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
 }
 .job_update-item{
     display: flex;
     flex-direction: column;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .job_update-item>label{
     margin-bottom: 5px;
     font-size: 14px;
+    font-weight: 600;
 }
 
 .job_update-input{

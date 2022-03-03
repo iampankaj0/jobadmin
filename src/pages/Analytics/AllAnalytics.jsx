@@ -1,6 +1,6 @@
-import React from 'react'
-import Chart from '../../components/chart/Chart'
-import { userData } from '../../dummyData'
+import React from 'react';
+import Chart from '../../components/chart/Chart';
+import { userData } from '../../dummyData';
 
 const AllAnalytics = () => {
     return (
@@ -19,4 +19,4 @@ const AllAnalytics = () => {
     )
 }
 
-export default AllAnalytics
+export default AllAnalytics;
