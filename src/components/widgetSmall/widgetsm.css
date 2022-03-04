@@ -11,13 +11,6 @@
     font-weight: 600;
 }
 
-.widget-sm-img{
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    object-fit: cover;
-}
-
 .widget-sm-list{
     margin: 0;
     padding: 0;
@@ -31,18 +24,10 @@
     margin: 20px 0;
 }
 
-.widget_sm-user{
-    display: flex;
-    flex-direction: column;
-}
-
-.widget_sm-username{
+.widget_sm-job-title{
     font-weight: 600;
 }
 
-.widget_sm-usertitle{
-    font-weight: 300;
-}
 
 .widget_sm-button{
     display: flex;

@@ -30,7 +30,7 @@ const Latestjob = () => {
             field: 'action', headerName: 'Action', width: 180, renderCell: (params) => {
                 return (
                     <>
-                        <Link to={'/job/'+params.row.id}>
+                        <Link to={'/job/' + params.row.id}>
                             <button className="latestob_edit">Edit</button>
                         </Link>
                         <DeleteOutline className="latestob_delete" onClick={() => deleteJob(params.row.id)} />
@@ -45,7 +45,13 @@ const Latestjob = () => {
 
     return (
         <div className='latestjob'>
-            <DataGrid rows={data} columns={Jobcolumns} pageSize={15} disableSelectionOnClick rowsPerPageOptions={[5]} checkboxSelection
+            <DataGrid
+                rows={data}
+                columns={Jobcolumns}
+                pageSize={15}
+                disableSelectionOnClick
+                rowsPerPageOptions={[5]}
+                checkboxSelection
             />
         </div>
     )
