@@ -1,0 +1,83 @@
+.change_logo{
+    padding: 20px;
+    flex: 4;
+}
+
+.change_logo .change_logo-title{
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+.change_logo form{
+    margin-top: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #d8d8d8;
+}
+
+.change_logo form input{
+    border: 1px solid #d8d8d8;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.change_logo .change_logo-button{
+    margin-top: 20px;
+    padding: 7px 20px;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    background-color: darkblue;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+.change_logo .change_logo-button .logo-upload_icon{
+    margin-right: 7px;
+    font-size: 22px;
+}
+
+
+.change_logo .change_logo-print{
+    margin-top: 40px;
+}
+
+.change_logo .change_logo-print .logo_img-sec{
+    width: 150px;
+    height: 150px;
+}
+
+.change_logo .change_logo-print .logo_img-sec img{
+    width: 100%;
+}
+
+
+.change_logo input[type=file]::-ms-browse {
+    color: #fff;
+    background-color: teal;
+    padding: 10px 15px;
+    font-size: 16px;
+    box-shadow: none;
+    cursor: pointer;
+}
+
+.change_logo input[type=file]::-webkit-file-upload-button {
+    color: #fff;
+    background-color: teal;
+    padding: 10px 15px;
+    font-size: 16px;
+    box-shadow: none;
+    cursor: pointer;
+}
+
+.change_logo input[type=file]::file-selector-button {
+    color: #fff;
+    background-color: teal;
+    padding: 10px 15px;
+    font-size: 16px;
+    box-shadow: none;
+    cursor: pointer;
+}

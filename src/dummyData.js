@@ -1,3 +1,10 @@
+import slider1 from './assets/images/slide1.jpg';
+import slider2 from './assets/images/slide-2.jpg';
+import slider3 from './assets/images/slide-3.jpg';
+import slider4 from './assets/images/slide-4.jpg';
+
+
+
 export const userData = [
     {
         name: '',
@@ -111,3 +118,21 @@ export const Jobrows = [
 
 
 
+export const Sliderimg = [
+    {
+        id: 1,
+        imgsrc: slider1,
+    },
+    {
+        id: 2,
+        imgsrc: slider2,
+    },
+    {
+        id: 3,
+        imgsrc: slider3
+    },
+    {
+        id: 4,
+        imgsrc: slider4,
+    },
+];
