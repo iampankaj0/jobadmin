@@ -16,6 +16,7 @@
 
 .change_marquee textarea{
     width: 100%;
+    font-size: 18px;
 }
 
 .change_marquee textarea:focus{

@@ -57,16 +57,21 @@ const Sidebar = () => {
                         </ul>
                     </div>
                     <div className="sidebar-menu">
-                        <h3 className="sidebar-title">Jobs Update</h3>
+                        <h3 className="sidebar-title">All Updates</h3>
                         <ul className="sidebar-list">
                             <Link to='/newjob'>
                                 <li className="sidebar_list-item">
-                                    <Add className='sidebar-icon' /> Add New Job
+                                    <Add className='sidebar-icon' /> Add New Item
+                                </li>
+                            </Link>
+                            <Link to='/add-desc'>
+                                <li className="sidebar_list-item">
+                                    <AddCircleOutline className='sidebar-icon' /> Add Job Description
                                 </li>
                             </Link>
                             <Link to='/jobs'>
                                 <li className="sidebar_list-item">
-                                    <Edit className='sidebar-icon' /> Edit Job
+                                    <Edit className='sidebar-icon' /> Edit Item
                                 </li>
                             </Link>
                         </ul>

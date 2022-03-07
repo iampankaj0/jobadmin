@@ -1,4 +1,55 @@
 .notice_board{
-    margin-top: 20px;
+    padding: 20px;
     flex: 4;
+}
+
+.notice_board-title{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.notice_board form {
+    margin-top: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #d8d8d8;
+}
+
+.notice_board input{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #d8d8d8;
+    font-size: 18px;
+}
+
+.notice_board input:focus{
+    outline: none;
+}
+
+.notice_board .notice_borad-button{
+    margin-top: 20px;
+    padding: 7px 20px;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    background-color: darkblue;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.notice_board .notice_board-buttonicon{
+    margin-right: 7px;
+    font-size: 22px;
+}
+
+.notice_board .notice_board-print{
+    margin-top: 40px;
+}
+
+.notice_board .notice_board-print li{
+    margin-top: 15px;
+    font-size: 16px;
 }

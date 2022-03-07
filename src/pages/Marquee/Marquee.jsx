@@ -9,7 +9,7 @@ const Marquee = () => {
             <h1 className="change_marquee-title">Change/Update Marquee</h1>
 
             <form action="">
-                <textarea name="" id="" rows="10"></textarea>
+                <textarea placeholder='Add New Marquee' name="" id="" rows="10"></textarea>
                 <button className="change_marquee-button"> <ThumbUpAltOutlined className='change_marquee-buttonicon' /> Update</button>
             </form>
 

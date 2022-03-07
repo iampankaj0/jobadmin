@@ -13,6 +13,7 @@ import Logo from './pages/Logo/Logo';
 import Marquee from './pages/Marquee/Marquee';
 import Noticeboard from './pages/NoticeBoard/Noticeboard';
 import Slider from './pages/Slider/Slider';
+import AddDesc from './pages/Add-description/AddDesc';
 
 const App = () => {
   return (
@@ -31,9 +32,9 @@ const App = () => {
           <Route path='/slider' component={Slider} />
           <Route path='/marquee' component={Marquee} />
           <Route path='/notice-board' component={Noticeboard} />
+          <Route path='/add-desc' component={AddDesc} />
 
           <Redirect to='/' />
-
 
         </Switch>
 

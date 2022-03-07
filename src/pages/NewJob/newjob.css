@@ -57,3 +57,12 @@
     display: block;
     margin: 40px auto 0;
 }
+
+.totalposts input{
+    flex: 1.4;
+    margin-left: 0;
+}
+
+.totalposts input:last-child{
+    margin-left: 50px;
+}
