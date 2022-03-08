@@ -41,6 +41,44 @@ const Newjob = () => {
                     <input type="text" placeholder='Total Posts' />
                 </div>
 
+
+                <h2 className="new_job-implinks">Important Links :-</h2>
+                <small>If link is available, click on CheckBox and paste in InputBox*</small>
+
+                <div className="newjob_form-item">
+                    <label>Download Answer Key :</label>
+                    <input type="checkbox" name="" id="" />
+                    <input type="text" placeholder='AnswerKey Link' />
+                </div>
+                <div className="newjob_form-item">
+                    <label>Download Result :</label>
+                    <input type="checkbox" name="" id="" />
+                    <input type="text" placeholder='Result Link' />
+                </div>
+                <div className="newjob_form-item">
+                    <label>Download Admit Card :</label>
+                    <input type="checkbox" name="" id="" />
+                    <input type="text" placeholder='Admit Card Link' />
+                </div>
+                <div className="newjob_form-item">
+                    <label>Apply Online :</label>
+                    <input type="checkbox" name="" id="" />
+                    <input type="text" placeholder='Apply Online Link' />
+                </div>
+                <div className="newjob_form-item">
+                    <label>Download Notification :</label>
+                    <input type="checkbox" name="" id="" />
+                    <input type="text" placeholder='Notification Link' />
+                </div>
+                <div className="newjob_form-item">
+                    <label>Download Syllabus :</label>
+                    <input type="checkbox" name="" id="" />
+                    <input type="text" placeholder='Syllabus Link' />
+                </div>
+
+
+
+
                 <button className="create_newjob-button">Create</button>
 
             </form>
