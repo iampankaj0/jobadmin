@@ -9,10 +9,10 @@ const AddDesc = () => {
             <h1 className="add_jobdesc-title">Add Job Description</h1>
 
             <form action="">
-                <div className="add_jobdesc-inputsec">
+                {/* <div className="add_jobdesc-inputsec">
                     <label>Post Type / Post Title</label>
                     <input type="text" placeholder='Post Title' />
-                </div>
+                </div> */}
                 <div className="add_jobdesc-inputsec">
                     <label>Post Name</label>
                     <input type="text" placeholder='Post Name' />
@@ -40,7 +40,6 @@ const AddDesc = () => {
 
             </form>
 
-            <h2 className="add_jobdesc-type">Navy SSC Executive Branch Vacancy Details 2022</h2>
             <Table>
                 <Thead>
                     <Tr>

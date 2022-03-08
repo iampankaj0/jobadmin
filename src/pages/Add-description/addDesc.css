@@ -60,9 +60,9 @@
 
 .add_jobdesc-button{
     display: block;
-    width: 100%;
+    width: 30%;
     padding: 10px 15px;
-    margin: 20px 0 0 0;
+    margin: 20px auto 0;
     border: none;
     border-radius: 5px;
     background: teal;
@@ -72,7 +72,9 @@
     cursor: pointer;
 }
 
-
+.add_jobdesc table{
+    margin-top: 40px;
+}
 
 .add_jobdesc table th{
     text-align: left;
@@ -92,13 +94,6 @@
     background-color: #f7f7f7;
 }
 
-h2.add_jobdesc-type{
-    font-size: 22px;
-    margin-bottom: 20px;
-    margin-top: 40px;
-    text-align: center;
-}
-
 @media screen and (max-width: 640px) {
     .add_jobdesc table th{
         padding: 3px;
@@ -111,5 +106,11 @@ h2.add_jobdesc-type{
     .add_jobdesc table ul{
         margin: 0;
         padding: 0;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .add_jobdesc-button{
+        width: 100%;
     }
 }
