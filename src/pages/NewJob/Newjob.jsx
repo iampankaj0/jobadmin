@@ -1,7 +1,10 @@
 import React from 'react';
 import './newjob.css';
+import { CKEditor } from '@ckeditor/ckeditor5-react';
+import ClassicEditor from '@ckeditor/ckeditor5-build-classic';
 
 const Newjob = () => {
+
     return (
         <div className='newjob'>
             <h1 className="newjob-title">New Job</h1>
@@ -29,16 +32,23 @@ const Newjob = () => {
                 </div>
                 <div className="newjob_form-item">
                     <label>Important Dates :</label>
-                    <textarea rows='7' type="text" placeholder='Important Dates' />
+                    {/* <textarea rows='7' type="text" placeholder='Important Dates' /> */}
+                    <CKEditor editor={ClassicEditor} onInit={editor => { }} />
                 </div>
                 <div className="newjob_form-item">
                     <label>Application Fees :</label>
-                    <textarea rows='7' type="text" placeholder='Application Fees' />
+                    {/* <textarea rows='7' type="text" placeholder='Application Fees' /> */}
+                    <CKEditor editor={ClassicEditor} onInit={editor => { }} />
                 </div>
                 <div className="newjob_form-item totalposts">
                     <label>Total Posts :</label>
                     <input type="text" placeholder='Total Posts Title :' />
                     <input type="text" placeholder='Total Posts' />
+                </div>
+
+                <div className="newjob_form-item totalposts">
+                    <label>Job Description :</label>
+                    <CKEditor editor={ClassicEditor} onInit={editor => { }} />
                 </div>
 
 

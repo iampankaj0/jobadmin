@@ -40,6 +40,18 @@
     border: 1px solid grey;
 }
 
+.newjob_form-item>.ck-editor{
+    flex: 3;
+    padding: 7px!important;
+    font-size: 18px!important;
+    border-radius: 5px!important;
+    border: 1px solid grey!important;
+}
+
+.newjob_form-item .ck.ck-editor__editable_inline>:last-child {
+    height: 150px;
+}
+
 .newjob_form-item>input:focus,
 .newjob_form-item>textarea:focus{
     outline: none;
