@@ -3,6 +3,7 @@ import './newjob.css';
 import { CKEditor } from '@ckeditor/ckeditor5-react';
 import ClassicEditor from '@ckeditor/ckeditor5-build-classic';
 
+
 const Newjob = () => {
 
     return (
@@ -16,7 +17,7 @@ const Newjob = () => {
                 </div>
                 <div className="newjob_form-item">
                     <label>Short Description :</label>
-                    <textarea rows='7' type="text" placeholder='Short Description' />
+                    <CKEditor editor={ClassicEditor} onInit={editor => { }} />
                 </div>
                 <div className="newjob_form-item">
                     <label>Start Date :</label>
@@ -32,7 +33,6 @@ const Newjob = () => {
                 </div>
                 <div className="newjob_form-item">
                     <label>Important Dates :</label>
-                    {/* <textarea rows='7' type="text" placeholder='Important Dates' /> */}
                     <CKEditor editor={ClassicEditor} onInit={editor => { }} />
                 </div>
                 <div className="newjob_form-item">
@@ -84,6 +84,39 @@ const Newjob = () => {
                     <label>Download Syllabus :</label>
                     <input type="checkbox" name="" id="" />
                     <input type="text" placeholder='Syllabus Link' />
+                </div>
+
+
+                <div className="newjob_form-item">
+                    <label>Show the Job in :</label>
+
+                    <div className='newjob_form-checkbox'>
+                        <span>
+                            <input type="checkbox" name="" id="" /> Result
+                        </span>
+
+                        <span>
+                            <input type="checkbox" name="" id="" /> Admit Card
+                        </span>
+
+                        <span>
+                            <input type="checkbox" name="" id="" /> Latest Job
+                        </span>
+
+                        <span>
+                            <input type="checkbox" name="" id="" /> Answer Key
+                        </span>
+
+                        <span>
+                            <input type="checkbox" name="" id="" /> Important News
+                        </span>
+
+                        <span>
+                            <input type="checkbox" name="" id="" /> Syllabus
+                        </span>
+
+                    </div>
+
                 </div>
 
 

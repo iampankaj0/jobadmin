@@ -90,3 +90,26 @@
     display: flex;
     justify-content: center;
 }
+
+
+.newjob .newjob_form-checkbox{
+    display: flex;
+    align-items: center;
+}
+
+.newjob .newjob_form-checkbox span{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 25px;
+}
+
+.newjob .newjob_form-checkbox span:after{
+    content: '|';
+    margin-left: 25px;
+}
+
+.newjob .newjob_form-checkbox span input{
+    margin-right: 10px;
+}
