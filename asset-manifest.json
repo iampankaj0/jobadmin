@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/jobadmin/static/css/main.fa09b9cf.css",
-    "main.js": "/jobadmin/static/js/main.7dc27bdd.js",
+    "main.css": "/jobadmin/static/css/main.b47bbe9e.css",
+    "main.js": "/jobadmin/static/js/main.ac3d8478.js",
     "static/media/slide-4.jpg": "/jobadmin/static/media/slide-4.bbdd5cf86895f892b128.jpg",
     "static/media/slide-3.jpg": "/jobadmin/static/media/slide-3.3e497a1bb94be32ec188.jpg",
     "static/media/slide1.jpg": "/jobadmin/static/media/slide1.45cc588b1612da41b77b.jpg",
     "static/media/slide-2.jpg": "/jobadmin/static/media/slide-2.2cd33365163645646da4.jpg",
     "static/media/ssc-logo.png": "/jobadmin/static/media/ssc-logo.7fa8eb60abc2d0511819.png",
     "index.html": "/jobadmin/index.html",
-    "main.fa09b9cf.css.map": "/jobadmin/static/css/main.fa09b9cf.css.map",
-    "main.7dc27bdd.js.map": "/jobadmin/static/js/main.7dc27bdd.js.map"
+    "main.b47bbe9e.css.map": "/jobadmin/static/css/main.b47bbe9e.css.map",
+    "main.ac3d8478.js.map": "/jobadmin/static/js/main.ac3d8478.js.map"
   },
   "entrypoints": [
-    "static/css/main.fa09b9cf.css",
-    "static/js/main.7dc27bdd.js"
+    "static/css/main.b47bbe9e.css",
+    "static/js/main.ac3d8478.js"
   ]
 }
